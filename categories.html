@@ -10,6 +10,24 @@
 <body>
 
     <h1>Categories</h1>
+    <!-- <div>
+        <img src="https://whitesalmonspringfestival.com/springfest/wp-content/uploads/EntertainmentBanner.jpg" alt="EntertainmentBanner">
+    </div> -->
+
+    <div class="dropdown">
+        <button onclick="mySelect()" class="dropbtn">Select a City</button>
+        <!-- <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"> -->
+        <!-- <div id="myDropdown" class="dropdown-content"> -->
+          <!-- <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"> -->
+          <a href="#charlotte, nc">Charlotte, NC</a>
+          <a href="#phoenix, az">Phoenix, AZ</a>
+          <a href="#chicago, il">Chicago, IL</a>
+          <a href="#tampa, fl">Tampa, FL</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
 
     <div class="grid-container">
         <div class="grid-item">Restaurants</div>
@@ -19,6 +37,31 @@
         <div class="grid-item">Nightlife</div>
         <div class="grid-item">Museums</div>
     </div> 
+
+    <script>
+//      When the user clicks on the button,
+// toggle between hiding and showing the dropdown content  
+    function mySelect() {
+     document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+//     function filterFunction() {
+//     var input, filter, ul, li, a, i;
+//     input = document.getElementById("myInput");
+//     filter = input.value.toUpperCase();
+//     div = document.getElementById("myDropdown");
+//     a = div.getElementsByTagName("a");
+//     for (i = 0; i < a.length; i++) {
+//     txtValue = a[i].textContent || a[i].innerText;
+//     if (txtValue.toUpperCase().indexOf(filter) > -1) {
+//       a[i].style.display = "";
+//     } else {
+//       a[i].style.display = "none";
+//     }
+// }
+    }
+
+</script>
 
 </body>
 </html>
