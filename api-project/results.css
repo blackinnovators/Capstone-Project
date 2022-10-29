@@ -7,15 +7,28 @@ h1 {
 
 .container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 40vw auto auto;
 }
 
 h1 {
     grid-column: 1/4;
 }
 
-.drop_down {
-    grid-column: 2/3;
+.map {
+    grid-column: 2/4;
+}
+
+.list {
+    grid-column: 1/2;
+}
+.result {
+  display: grid; 
+  grid-template-columns: 150px auto;
+  column-gap: 10px;
+}
+
+.result img {
+  width: 100%;
 }
 
 body {background-color : #ededed; font-family : "Open Sans", sans-serif;}
@@ -29,15 +42,6 @@ nav {
   width : 300px; 
   background: #d9d9d9;
   margin : 40px auto; 
-}
-
-.result {
-  display: grid; 
-  grid-template-columns: 150px auto;
-}
-
-.result img {
-  width: 100%;
 }
 
 /* span {
