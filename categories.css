@@ -1,84 +1,165 @@
-.grid-container {
-  display: grid;
-  gap: 50px 100px;
-  grid-template-columns: auto auto auto;
-  background-color: black;
-  text-align: center;
-  /* padding: 30px; */
-  height: 40px;
-  width: 40px;
+body {
+  background-color: lightblue;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+  grid-column: 1/4;
+  text-align: center;
+  border: 1px solid black;
+  font-family : "Open Sans", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#banner {
+  align-items: center;
+    size: 200px;
+}
+
+.item2 {
+  grid-column: 1 / 5;
+  padding: 0 ;
+}
+
+/* category and banner pic */
 .grid-item {
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  background-color: yellow;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+label,
+#locations {
+   /* position: static;  */
+   font-size: 30px;
+   /* background-color: yellow; */
+   min-width: 160px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+select,
+#locations {
+   /* position: static;  */
+   font-size: 30px;
+   /* background-color: yellow; */
+   min-width: 160px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
+  column-gap: 50px;
+  grid-column: 1/2;
+  border: 5px solid purple;
+}
+
+#catpic1 {
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  border: 5px solid black;
+} 
+
+.cat1 {
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+}
+
+#catpic2 {
+  height: 300px;
+  width: 300px;
+} 
+
+.cat2 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+#catpic3 {
+  height: 300px;
+  width: 300px;
+} 
+
+.cat3 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+#catpic4 {
+  height: 300px;
+  width: 300px;
+} 
+
+.cat4 {
+  font-size: 40px;
+  padding: 10px;
+}
+#catpic5 {
+  height: 300px;
+  width: 300px;
+} 
+
+.cat5 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+#catpic6 {
+  height: 300px;
+  width: 300px;
+} 
+
+.cat6 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+  /* display: grid;
+  grid-template-columns: repeat(3,2fr);
+  grid-template-rows: 1fr 1fr;
+  background-color: pink;
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  padding: 10px; 
+ } 
+
+ div .grid-item {
+  background-color: red;
+  border: 1px solid red;
   padding: 20px;
   font-size: 30px;
   text-align: center;
-}
+} */
 
-img {
-  align-items: center;
-}
 
-#myinput {
-  background-color: black;
-  color: white;
+
+/* #dropdown {
+  background-color: #5555;
+  color: black;
   padding: 16px;
   font-size: 16px;
-  border: none;
-}
-
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: black;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    /* shows hand with pointed finger on hover */
-    cursor: pointer;
-    grid-column: 2/3;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
+  border: 3px red;
+  position: relative;
     width: 100%;
     display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: yellow;
-    min-width: 160px;
-    /* If you want the width of the dropdown content to be 
-    as wide as the dropdown button, set the width to 100%
-    (overflow:auto to enable scroll on small screens). */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    /* Instead of using a border, we have used the box-shadow 
-    property to make the dropdown menu look like a "card". */
-    z-index: 1;
-    /* Used z-index to place the dropdown in front of other elements. */
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: white;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: black;}
+    grid-column: 2/3;
+} */

@@ -9,64 +9,61 @@
 </head>
 <body>
 
+<div class="grid-item item1">
+
     <h1>Categories</h1>
-    <div>
-        <img src="https://whitesalmonspringfestival.com/springfest/wp-content/uploads/EntertainmentBanner.jpg" alt="EntertainmentBanner">
+</div>
+
+        <br>
+        <br>
+    <div class="grid-item item2">
+        <img src="https://whitesalmonspringfestival.com/springfest/wp-content/uploads/EntertainmentBanner.jpg" id="banner" alt="EntertainmentBanner">
     </div>
 
-    <br>
-    <br>
-    <br>
 
-    <div class="dropdown" id="item2">
-        <button onclick="mySelect()" class="dropbtn">Select a City</button>
-        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-        <div id="myDropdown" class="dropdown-content">
-          <!-- <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"> -->
-          <a href="#charlotte, nc">Charlotte, NC</a>
-          <a href="#phoenix, az">Phoenix, AZ</a>
-          <a href="#chicago, il">Chicago, IL</a>
-          <a href="#tampa, fl">Tampa, FL</a>
-        </div>
+    <label for="browse" id="grid-item3">Select a City:</label>
 
-
-    </div>
-    <br>
-    <br>
-    <br>
+  <select name="video type" id="grid-item4" required>
+    <option value="Phoenix, Az">Phoenix, Az</option>
+    <option value="Tampa, FL">Tampa, FL</option>
+    <option value="Chicago, IL">Chicago, IL</option>
+    <option value="Charlotte, NC">Charlotte, NC</option>
+  </select>
 
     <div class="grid-container">
-        <div class="grid-item">Restaurants</div>
-        <div class="grid-item">Events</div>
-        <div class="grid-item">Coffee Shops</div>
-        <div class="grid-item">Health & Beauty</div>
-        <div class="grid-item">Nightlife</div>
-        <div class="grid-item">Museums</div>
-    </div> 
-
-    <script>
-//      When the user clicks on the button,
-// toggle between hiding and showing the dropdown content  
-    function mySelect() {
-     document.getElementById("myDropdown").classList.toggle("show");
-    }
-
-    function filterFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    div = document.getElementById("myDropdown");
-    a = div.getElementsByTagName("a");
-    for (i = 0; i < a.length; i++) {
-    txtValue = a[i].textContent || a[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      a[i].style.display = "";
-    } else {
-      a[i].style.display = "none";
-    }
-}
-    }
-</script>
+        <section>
+         <img id="catpic1" src="https://burst.shopifycdn.com/photos/table-for-two.jpg?width=925&format=pjpg&exif=1&iptc=1" alt="table for two">
+         <div class="cat1">Restaurants</div>
+     </section>
+ 
+     <section>
+        <!-- <img id="catpic2" src="https://cdn.pixabay.com/photo/2017/03/05/19/54/concert-2119610_1280.jpg" alt="concert stage"> -->
+         
+        <img id="catpic2" src="https://cdn.pixabay.com/photo/2016/04/28/01/08/stage-1357961_1280.jpg" alt="stage pic">
+        <div class="cat2">Events</div>
+     </section>
+ 
+     <section>
+        <img id="catpic3" src="https://cdn.pixabay.com/photo/2017/12/29/12/06/laptop-3047422_1280.jpg" alt="coffee and laptop">
+         <div class="cat3">Coffee Shops</div>
+     </section>
+ 
+     <section>
+        <img id="catpic4" src="https://cdn.pixabay.com/photo/2017/08/17/17/02/spa-2652009_1280.jpg" alt="towel and candle">
+         <div class="cat4">Health & Beauty</div>
+     </section>
+ 
+     <section>
+        <img id="catpic5" src="https://cdn.pixabay.com/photo/2021/04/07/13/09/headphones-6159058_1280.jpg" alt=" dj headphones and turntable">
+        <div class="cat5">Nightlife</div>
+     </section>
+ 
+     <section>
+        <img id="catpic6" src="https://cdn.pixabay.com/photo/2016/05/26/06/32/museum-1416573_1280.jpg" alt="art display room">
+         <div class="cat6">Museums</div>
+     </section>
+     </div> 
 
 </body>
 </html>
+
