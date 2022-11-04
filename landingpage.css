@@ -22,12 +22,12 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #988d4f;
+    background-color:  rgb(120, 105, 13);
     color: white;
   }
 
   h1{
-    color: #545427;
+    color: #b4b41a;
     text-align: center;
   }
 
@@ -41,7 +41,16 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 300px;
+      height: 200px;
+      
      
     }
- 
+
+   .header {
+      background-image:url("BELlogo1.png");
+      height:70px;
+      width:110%;
+      margin:-10px;
+    }
+
+   
