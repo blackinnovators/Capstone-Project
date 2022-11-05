@@ -7,8 +7,8 @@ businessSearch("flavas", "tampa, fl")
 document.querySelector('#app').innerHTML = `
 <main class="container">
 <h1>search results</h1>
-<h1><nav>
 
+ <div> <h1>
   <label for="browse">Select a City:</label>
 
   <select name="video type" id="location" required>
@@ -30,7 +30,7 @@ document.querySelector('#app').innerHTML = `
 </h1>
 
 
-</nav> 
+</div> 
 <section class="list">list of businesses will go here</section>
 <section class="map">
       
@@ -40,4 +40,6 @@ document.querySelector('#app').innerHTML = `
 </main>
 `
 document.querySelector("#location").addEventListener("change", updateList);
+
+
 
