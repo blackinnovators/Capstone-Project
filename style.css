@@ -1,0 +1,9 @@
+body {
+    background-image: url("chicagocitypic.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+   }
+#logo1 {
+    height: 100px;
+}
