@@ -1,7 +1,7 @@
 import { blackBusinesses } from "./config";
 import {initMap} from "./map.js";
 //responsible for building all of the results
-//go out & get info from yelp
+// step 1 go out & get info from yelp
 //Go to the internet and get the info 
 function businessSearch(category, location) {
   const url = `https://www.apitutor.org/yelp/v3/businesses/search?location=${location}&term=${category} black owned`;
@@ -12,6 +12,7 @@ function businessSearch(category, location) {
       return response.json();
     })
     .then((myJson) => {
+      //once data comes back use it to display a list & make a map using that data Loops through
      displayBusinessList(myJson);
      //display map here
      initMap(myJson);
