@@ -3,7 +3,10 @@
     background-color: #333;
     overflow: hidden;
   }
-  
+  #logo1 {
+    width: 200px;
+    position:absolute;
+}
   /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
@@ -22,13 +25,17 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color:  rgb(120, 105, 13);
+    /* background-color:  rgb(120, 105, 13); */
+    background-color: #eed95b;
     color: white;
   }
 
   h1{
-    color: #b4b41a;
+    color: #eed95b;
+    /* color: rgb(107, 106, 22); */
     text-align: center;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 125px;
   }
 
   :single-button{
@@ -53,7 +60,13 @@
       width:110%;
       margin:-10px;
     }
-
+ 
+    body {
+      background-image: url("chicagocitypic.png");
+      background-color: #cccccc;
+      background-repeat: no-repeat;
+      background-size: 100% 500px;
+     }
     
 
    
