@@ -22,5 +22,7 @@ const blackBusinesses = [
   "H-3k7-4pQxoTmsjjAEET6w",
   "yl_gnP_iQp2TaOTnMPHh0w",
   "MjWEpStpfjfRYlJ0oHvRYA"
+
+  
 ];
 export { blackBusinesses };
