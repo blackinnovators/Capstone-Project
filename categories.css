@@ -55,8 +55,8 @@ select,
   }
 
 #catpic1, #catpic2,  #catpic3,  #catpic4, #catpic5, #catpic6 {
-  height: 100px;
-  width: 100px;
+  height: 250px;
+  width: 250px;
   /* border: 5px solid black; */
 } 
 
