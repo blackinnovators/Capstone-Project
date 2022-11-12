@@ -128,9 +128,11 @@ html{
   color:  black;
 }
 
-#categories, #about,  #contact{
+#about,  #contact{
   min-height: 100vh;
 }
+
+
 
 
 
