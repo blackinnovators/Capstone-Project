@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -61,11 +64,13 @@
       margin:-10px;
     }
  
-    body {
+    header {
       background-image: url("chicagocitypic.png");
       background-color: #cccccc;
       background-repeat: no-repeat;
       background-size: 100% 500px;
+      background-size: cover;
+      height: 100vh;
      }
 
      * {
@@ -105,3 +110,46 @@
       clear: both;
       display: table;
     }  
+
+    body {
+      font-family: "Audiowide", sans-serif;
+    }
+
+
+
+      /* body {
+        background-image: url('https://images.pexels.com/photos/2252342/pexels-photo-2252342.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        } */
+#get-started{
+  font-family: "Audiowide", sans-serif;
+  padding: 20px;
+  text-decoration: none;
+  background-color:#eed95bbb;
+  color:  black;
+}
+
+#categories, #about,  #contact{
+  min-height: 100vh;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.example {background: pink;}
+}
