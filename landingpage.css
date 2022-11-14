@@ -4,7 +4,9 @@ html{
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
+    /* background-color: black; */
     overflow: hidden;
+    /* height: 150px; */
   }
   #logo1 {
     width: 200px;
@@ -30,7 +32,10 @@ html{
   .topnav a.active {
     /* background-color:  rgb(120, 105, 13); */
     background-color: #eed95b;
+    /* background-color: goldenrod; */
+    /* background-color: black; */
     color: white;
+    /* color: black; */
   }
 
   h1{
@@ -39,6 +44,10 @@ html{
     text-align: center;
     text-shadow: 1px 1px 1px black;
     margin-top: 125px;
+    margin-left: 90px;
+    margin-right: 90px;
+    /* background-color: #333; */
+    /* background-color: black; */
   }
 
   :single-button{
