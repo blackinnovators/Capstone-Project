@@ -1,0 +1,43 @@
+.crown {
+    padding: 10px 0;
+}
+
+.crown i {
+    font-size: 0.8rem;
+    color: goldenrod;
+}
+
+/* Products */
+
+.business:hover img {
+    opacity: 0.7;
+}
+
+.business .info-btn {
+    background: goldenrod;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.business:hover .info-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Main photo and images beneath */
+
+#MainImg {
+
+    height: 400px;
+    width: 150px;
+}
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
