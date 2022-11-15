@@ -7,6 +7,8 @@ const blackBusinesses = [
   "2MdRF3tS4pMEvxWBnX1QgQ",
 
   //TAMPA BOB
+  "w0lcP2ngFaUpBGi5yzlYDw", //yah man
+  "a1esN1yBrh8c8jra-7WcXw", //Caribbean Twist
   "3PgXBoDzQNje8alccd2F3w",
   "6HFVZzJu4VgazgmV73lQZA",
   "0X_s2KTHYEMVxiqzFosYGA",
@@ -22,12 +24,13 @@ const blackBusinesses = [
   "H-3k7-4pQxoTmsjjAEET6w",
   "yl_gnP_iQp2TaOTnMPHh0w",
   "MjWEpStpfjfRYlJ0oHvRYA",
+  "CNGvDhh7PtdmMAJdsMfcFQ",// Dr. Carter G. Woodson African American Museum
 
   // Charlotte BOB
   // Museums
-  "6lPfM2AJIC6CZddrTvFYnA",
-  "9pCBrYwR5qBl0oThOyPJoA",
-  "MP7vvPXjScuNYG1AHJiJ5A",
+  "6lPfM2AJIC6CZddrTvFYnA",//harvey b gant
+  "9pCBrYwR5qBl0oThOyPJoA",//picture project
+  "MP7vvPXjScuNYG1AHJiJ5A",//home of the 90's 
 // Health & Beauty
   "3en3UzByLjBDd0whFjYdTQ",  //Black Balled Beauty
   "QrQzUlYeFf_DIfX6M8UmdQ",  //ArKay Beauty Supply
