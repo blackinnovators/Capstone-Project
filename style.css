@@ -1,9 +1,32 @@
-body {
-    background-image: url("chicagocitypic.png");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: 100% 500px;
-   }
-#logo1 {
-    height: 100px;
+#photos img {
+  height: 150px;
+  width: 150px;
+}
+figure {
+  width: 150px;
+  margin: 0;
+}
+#info {
+  clear: both;
+}
+
+#info h3 {
+  text-align: center;
+}
+#photos figure {
+  display: inline-block;
+}
+figcaption {
+  text-align: center;
+}
+
+#top h1 {
+  float: right;
+}
+
+#photos {
+  float: left;
+}
+#about {
+  background-color: #ccb8df;
 }
