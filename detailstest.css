@@ -41,3 +41,43 @@
     flex-basis: 24%;
     cursor: pointer;
 }
+
+#From landingpage.css
+html{
+    scroll-behavior: smooth;
+  }
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    /* background-color: black; */
+    overflow: hidden;
+    /* height: 150px; */
+  }
+  #logo1 {
+    width: 200px;
+    position:absolute;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+   /* Add a color to the active/current link */
+   .topnav a.active {
+    /* background-color:  rgb(120, 105, 13); */
+    /* background-color: #eed95b; */
+    background-color: goldenrod;
+    /* background-color: black; */
+    color: white;
+    /* color: black; */
+  }
