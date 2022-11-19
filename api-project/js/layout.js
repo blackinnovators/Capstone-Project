@@ -4,7 +4,15 @@ import "../results.css";
 const initLayout = () => {
   document.querySelector("#app").innerHTML = `
         <main class="container">
-        <h1>search results</h1>
+        <h1><header>
+      
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#photos">Photos</a>
+            <a href="#contact">Contact</a>
+         
+          </div>
+        </header></h1>
 
       <div class="searchForm">
         <label for="browse">Select a City:</label>
