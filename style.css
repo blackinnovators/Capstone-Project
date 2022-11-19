@@ -20,10 +20,13 @@ figcaption {
   text-align: center;
 }
 
-h1 {
+#top h1 {
   float: right;
 }
 
 #photos {
   float: left;
+}
+#about {
+  background-color: #ccb8df;
 }
