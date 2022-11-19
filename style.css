@@ -1,34 +1,29 @@
-
-#photos img{
-    height: 150px;
-    width: 150px;
-    
+#photos img {
+  height: 150px;
+  width: 150px;
 }
 figure {
-    width: 150px;
-    margin: 0;
+  width: 150px;
+  margin: 0;
 }
- #info {
-    clear: both;
- }
+#info {
+  clear: both;
+}
 
- #info h3 {
-    text-align: center;
- }
+#info h3 {
+  text-align: center;
+}
 #photos figure {
-    display: inline-block;
-    
+  display: inline-block;
 }
 figcaption {
-    text-align: center;
+  text-align: center;
 }
 
-h1{
-   float: right;
-   
+h1 {
+  float: right;
 }
 
 #photos {
-    float: left;
-
+  float: left;
 }
