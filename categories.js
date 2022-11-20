@@ -5,11 +5,8 @@ let healthBeautyLink = document.querySelector("#healthBeauty-link");
 let nightLifeLink = document.querySelector("#nightlife-link");
 let museumsLink = document.querySelector("#museums-link");
 
-// document.querySelector("#location").addEventListener("change", updateList);
 
-// eventsLink()
-
-
+// Go to the DOM and 
 document.querySelector('#location').addEventListener('change', (e) => {
     console.log(e.target.value)
     let city = e.target.value;
@@ -18,7 +15,7 @@ document.querySelector('#location').addEventListener('change', (e) => {
     
 }); 
 
-
+// Created new function to loop through all the cities
 function setCategoryLinks(city) {
 
     let newResturantLink=`http://127.0.0.1:5173/?city=${city}&category=restaurant`;
