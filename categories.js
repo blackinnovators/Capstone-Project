@@ -14,6 +14,12 @@ document.querySelector('#location').addEventListener('change', (e) => {
     console.log(e.target.value)
     let city = e.target.value;
 
+    setCategoryLinks(city);
+    
+}); 
+
+
+function setCategoryLinks(city) {
 
     let newResturantLink=`http://127.0.0.1:5173/?city=${city}&category=restaurant`;
     resturantLink.href = newResturantLink;
@@ -28,23 +34,15 @@ document.querySelector('#location').addEventListener('change', (e) => {
     healthBeautyLink.href = newHealthBeautyLink;
 
     let newnightLifeLink=`http://127.0.0.1:5173/?city=${city}&category=nightlife`;
-    nightlifeLink.href = newnightLifeLink;
+    nightLifeLink.href = newnightLifeLink;
 
     let newMuseumsLink=`http://127.0.0.1:5173/?city=${city}&category=museums`;
     museumsLink.href = newMuseumsLink;
-;})  
 
-// document.getElementById("resturants_link");
-// document.getElementById("events_link");
-// document.getElementById("coffeeShops_link");
-// document.getElementById("health&beauty_link");
-// document.getElementById("nightlife_link");
-// document.getElementById("museums_link");
+}
+
+// When the page first loads go find the location select menu 
+// whatever is currently selected set all links to that location
+setCategoryLinks(document.querySelector("#location").value);
 
 
-//     $('#event_link').href = '/results.html?city' + e.target.value + '&category=event';
-// })
-
-// $('#location').addEventListener('chage', (e) => {
-//     document.querySelector('#event_link').href = '/results.html?city' + e.target.value + '&category=event';
-// })
