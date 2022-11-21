@@ -4,7 +4,11 @@ import {initMap} from "./map.js";
 // step 1 go out & get info from yelp
 //Go to the internet and get the info 
 function businessSearch(category, location) {
-  const url = `https://www.apitutor.org/yelp/v3/businesses/search?location=${location}&term=${category}&limit=50`;
+ let url = `https://www.apitutor.org/yelp/v3/businesses/search?location=${location}&categories=${category}&limit=50&term=black owned`;
+  if(category == "museums"){
+    url = `https://www.apitutor.org/yelp/v3/businesses/search?location=${location}&categories=${category}&limit=50`; 
+  }
+  // const url = `https://www.apitutor.org/yelp/v3/businesses/search?location=${location}&categories=${category}&limit=50`;
   //going out to get this data from address above
   //7-8 once it gets the response it pulls down the json data. Final .then is now down and it will show the user in a card essentially
   fetch(url)
@@ -54,7 +58,7 @@ function buildCard(business){
 //this function is invoked on the location drop downs on the locations change event
 //Requeries when someone changes the dropdown menu
 function updateList() {
-  const category = "art history museums";
+  const category = document.querySelector("#category").value;
   //reaching into the DOM and getting whatever the location the user just selected
   const location = document.querySelector("#location").value;
   businessSearch(category, location);

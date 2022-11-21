@@ -9,7 +9,10 @@ import { businessSearch, updateList } from "./business-search.js";
  initLayout() 
  //everytime dropdown menu is changed invokes the update list function
 document.querySelector("#location").addEventListener("change", updateList);
+document.querySelector("#category").addEventListener("change", updateList);
 //kicks off the search so that it display whatever buisnesses in the city
-businessSearch("ritas", "phoenix, az");
+const city = document.querySelector("#location").value;
+const category = document.querySelector("#category").value;
+businessSearch(category, city);
 
  
