@@ -1,7 +1,9 @@
 # Capstone-Project
 
 
+
 The TEC Phase 4 Capstone project will challenge you to work together and use everything you have learned throughout the previous three phases to build a working application that fulfills a real need that you have. You will need to come up with a project idea, pitch it to the instructor team, plan it, build it and present it.
+
 Projects
 You will use Design Thinking and Value Proposition Design concepts, which you will learn during weeks 1-2 of Phase 4, to come up with an idea for your project. You will have the option of creating a codebase from scratch or using a provided starter template pre-configured with Vite and GitHub actions. From there, you will have creative agency to design and build any project you would like, provided it includes the following:
 The problem you’re looking to solve with your app
